@@ -1,1 +1,6 @@
+---
+- hosts: gcp
+  become: yes
 
+  roles:
+    - nginx
